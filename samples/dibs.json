@@ -1,0 +1,71 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "dibs",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AvailableRooms"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "datetimeV2"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "show me available meeting rooms",
+      "intent": "AvailableRooms",
+      "entities": []
+    },
+    {
+      "text": "any rooms available?",
+      "intent": "AvailableRooms",
+      "entities": []
+    },
+    {
+      "text": "show room availability",
+      "intent": "AvailableRooms",
+      "entities": []
+    },
+    {
+      "text": "any meeting rooms available?",
+      "intent": "AvailableRooms",
+      "entities": []
+    },
+    {
+      "text": "meeting rooms 9-11pm",
+      "intent": "AvailableRooms",
+      "entities": []
+    },
+    {
+      "text": "rooms available between 10am and 11am",
+      "intent": "AvailableRooms",
+      "entities": []
+    },
+    {
+      "text": "available rooms in 30min",
+      "intent": "AvailableRooms",
+      "entities": []
+    },
+    {
+      "text": "rooms available on tuesday at 9am",
+      "intent": "AvailableRooms",
+      "entities": []
+    },
+    {
+      "text": "rooms available at 12pm",
+      "intent": "AvailableRooms",
+      "entities": []
+    }
+  ]
+}
